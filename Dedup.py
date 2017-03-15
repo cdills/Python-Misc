@@ -13,6 +13,7 @@ def dedup(directory): #Accepts string in format "C:/users/downloads"
             if dup in file: #searches files for match of duplicate strings
                srcfile = directory + "/" + file
                #print(srcfile) #uncomment this line to print matches files to console
+		
 							 
 if __name__ == "__main__":
     dedup(directory)
